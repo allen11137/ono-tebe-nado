@@ -1,9 +1,10 @@
 /* место для вашего кода */
+
 .container {
 display:grid;
 place-items: center; 
 width: 1052px;
-height: 105px; 
+height: 105px;
 margin: auto;
 list-style-type: none; 
 grid-template-columns: 0.8fr 1.7fr 1fr 1fr 2fr 2fr;
@@ -15,11 +16,11 @@ margin-bottom: 140px;
 }
 
 .main {
+   font-family: Raleway;
     grid-column-start: 1;
     grid-column-end: 1;
     align-self: center;
     font-size: 18px;
-    font-family: Raleway;
     font-weight: 400;
     line-height: 21.13px;
     text-align: left;
@@ -116,7 +117,7 @@ width: 1100px;
     margin-top: -90px;
     margin-left: 353px;
     }
-    
+   
     .header3 {
     text-transform: uppercase; 
     color: white;
@@ -271,7 +272,6 @@ width: 1100px;
     color: white;
     padding-top: 210px;
     white-space: pre-wrap;
-    font-weight: lighter;
     padding-left: 5px;
    }
 
@@ -283,7 +283,6 @@ width: 1100px;
     text-align: left;
     color: white;
     margin-top: 0px;
-    margin-left: 10px;
     white-space: pre-wrap;
     font-weight: lighter;
     padding-left: 5px;  
@@ -300,7 +299,6 @@ width: 1100px;
         margin-top: 100px;
         margin-left: 10px;
         white-space: pre-wrap;
-        font-weight: lighter;
       }
 
      .see {
@@ -320,15 +318,15 @@ width: 1100px;
         margin-left: 70px;
         display: flex;
         flex-direction: column;
-        width: 240px; 
-        height: 240px; 
+        width: 240px;
+        height: 240px;
         border-radius: 50%; 
         background-color: #000;
       }
 
      .logo_white {
         width: 148px; 
-        height: 114px; 
+        height: 114px;
         padding-top: 60px;
         padding-left: 50px;
         justify-content: center;
@@ -338,7 +336,7 @@ width: 1100px;
         padding-left: 410px;
         margin-top: -140px;
         white-space: pre-wrap; 
-        text-transform: uppercase; 
+        text-transform: uppercase;
         font-family: Raleway;
         font-size: 40px;
         font-weight: 700;
@@ -400,7 +398,7 @@ width: 1100px;
       }
 
      .ul_footer {
-        list-style-type: none;  
+        list-style-type: none;
         margin-left: 160px;
       }
      
