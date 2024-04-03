@@ -90,7 +90,7 @@ background-image: url("/images/cover.jpg");
 background-color: rgba(0, 0, 0, 0.5);
 background-blend-mode: multiply;
 background-size: cover;
-background-repeat: no-repeat; 
+background-repeat: no-repeat;
 background-position: center; 
 height: 757px;
 width: 1100px;
@@ -147,7 +147,7 @@ width: 1100px;
 
     .button,
     .link {
-     display: flex; 
+      display: flex; 
      align-items: center;
      justify-content: center;
      border: 1px solid white;
@@ -284,7 +284,6 @@ width: 1100px;
     color: white;
     margin-top: 0px;
     white-space: pre-wrap;
-    font-weight: lighter;
     padding-left: 5px;  
     padding-top: 0px;
    }
