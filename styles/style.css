@@ -206,7 +206,7 @@ width: 1100px;
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-position: center; 
+    background-position: center;
    }
 
     .li_card2 {
@@ -215,8 +215,8 @@ width: 1100px;
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-position: center; 
-    }
+    background-position: center;
+   }
 
     .li_card3 {
     background-image: url("/images/card-lot-03.jpg");
@@ -224,12 +224,12 @@ width: 1100px;
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-position: center; 
-    }
+    background-position: center;
+   }
 
      .card1 {
         display: flexbox;
-     }       
+      }       
           
     .li_card1_header {
     margin-top: 50px;
@@ -244,7 +244,7 @@ width: 1100px;
     width: 254px;
     height: 82px;
     padding-left: 50px;
-            }
+   }
 
     .li_card1_header2 {
     margin-top: 50px;
@@ -260,7 +260,7 @@ width: 1100px;
     width: 254px;
     height: 82px;
     position: relative;
-    }
+   }
 
     .paragraph1 {
     font-family: Raleway;
@@ -273,7 +273,7 @@ width: 1100px;
     white-space: pre-wrap;
     font-weight: lighter;
     padding-left: 5px;
-    }
+   }
 
     .paragraph2 {
     font-family: Raleway;
@@ -288,7 +288,7 @@ width: 1100px;
     font-weight: lighter;
     padding-left: 5px;  
     padding-top: 0px;
-    }
+   }
      
      .paragraph3 {
         font-family: Raleway;
@@ -300,8 +300,8 @@ width: 1100px;
         margin-top: 100px;
         margin-left: 10px;
         white-space: pre-wrap;
-        font-weight: lighter;   
-     }
+        font-weight: lighter;
+      }
 
      .see {
        margin-left: 100px;
@@ -313,8 +313,7 @@ width: 1100px;
        font-weight: 400;
        line-height: 23.48px;
        text-align: left;
-
-     }
+      }
 
      .background_circle {
         margin-top: 181px;
@@ -324,8 +323,8 @@ width: 1100px;
         width: 240px; 
         height: 240px; 
         border-radius: 50%; 
-        background-color: #000; 
-     }
+        background-color: #000;
+      }
 
      .logo_white {
         width: 148px; 
@@ -333,7 +332,7 @@ width: 1100px;
         padding-top: 60px;
         padding-left: 50px;
         justify-content: center;
-     }
+      }
 
     .main_header {
         padding-left: 410px;
@@ -345,8 +344,8 @@ width: 1100px;
         font-weight: 700;
         line-height: 46.96px;
         text-align: left;
+      }
 
-    }
      .main_paragraph1 {
         margin-top: 70px;
         padding-left: 370px;
@@ -357,7 +356,7 @@ width: 1100px;
         line-height: 24px;
          letter-spacing: 0.01em;
         text-align: left;
-     }
+      }
 
      .main_paragraph2 {
         margin-top: -30px;
@@ -368,7 +367,7 @@ width: 1100px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.01em;
-     }
+      }
 
 
      .footer_section {
@@ -378,7 +377,7 @@ width: 1100px;
         width: 1300px;
         height: 98px;
         margin-top: 130px;
-     }
+      }
 
      .contacts_footer {
         white-space: pre-wrap;
@@ -391,20 +390,19 @@ width: 1100px;
         text-align: left;
         margin-top: -20px;
         margin-right: 10px;
-        
-     }
+      }
 
      .footer_flex {
         list-style-type: none;
         display: flex;
         flex-direction: row;
          margin-right: 160px;
-     }
+      }
 
      .ul_footer {
         list-style-type: none;  
         margin-left: 160px;
-     }
+      }
      
      .social_site_ul {
         display: flex;
@@ -413,7 +411,7 @@ width: 1100px;
         flex-direction: row;
         justify-content: end;
         padding-right: 200px;
-     }
+      }
 
      .main-footer {
         text-align: center;
@@ -421,18 +419,18 @@ width: 1100px;
         font-size: 18px;
         font-weight: 400;
         line-height: 21.13px;
-     }
+      }
 
      .see-lots-lu {
         color: black;
-     }
+      }
 
      .about-auction-lu {
         color: black;
-     }
+      }
 
      .social {
         width: 48px;
         height: 48px;
-     }
+      }
 
