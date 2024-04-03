@@ -208,8 +208,8 @@ width: 1100px;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
-    
     }
+
     .li_card2 {
     background-image: url("/images/card-lot-02.jpg");
     background-color: rgba(0, 0, 0, 0.5);
@@ -232,7 +232,7 @@ width: 1100px;
         display: flexbox;
      }       
           
-    .li_card1_header{
+    .li_card1_header {
     margin-top: 50px;
     color: white;
     font-family: Raleway;
@@ -274,7 +274,7 @@ width: 1100px;
     white-space: pre-wrap;
     font-weight: lighter;
     padding-left: 5px;
-            }
+    }
 
     .paragraph2 {
     font-family: Raleway;
@@ -289,7 +289,7 @@ width: 1100px;
     font-weight: lighter;
     padding-left: 5px;  
     padding-top: 0px;
-     }
+    }
      
      .paragraph3 {
         font-family: Raleway;
@@ -301,8 +301,7 @@ width: 1100px;
         margin-top: 100px;
         margin-left: 10px;
         white-space: pre-wrap;
-        font-weight: lighter;
-        
+        font-weight: lighter;   
      }
 
      .see {
@@ -318,9 +317,7 @@ width: 1100px;
 
      }
 
-    
-      
-     .background_circle{
+     .background_circle {
         margin-top: 181px;
         margin-left: 70px;
         display: flex;
@@ -330,7 +327,8 @@ width: 1100px;
         border-radius: 50%; 
         background-color: #000; 
      }
-     .logo_white{
+
+     .logo_white {
         width: 148px; 
         height: 114px; 
         padding-top: 60px;
@@ -338,7 +336,7 @@ width: 1100px;
         justify-content: center;
      }
 
-    .main_header{
+    .main_header {
         padding-left: 410px;
         margin-top: -140px;
         white-space: pre-wrap; 
@@ -383,7 +381,7 @@ width: 1100px;
         margin-top: 130px;
      }
 
-     .contacts_footer{
+     .contacts_footer {
         white-space: pre-wrap;
         color: black;
         font-family: Raleway;
@@ -397,7 +395,7 @@ width: 1100px;
         
      }
 
-     .footer_flex{
+     .footer_flex {
         list-style-type: none;
         display: flex;
         flex-direction: row;
@@ -409,7 +407,7 @@ width: 1100px;
         margin-left: 160px;
      }
      
-     .social_site_ul{
+     .social_site_ul {
         display: flex;
         list-style-type: none;
         gap: 48px;
@@ -424,8 +422,6 @@ width: 1100px;
         font-size: 18px;
         font-weight: 400;
         line-height: 21.13px;
-
-
      }
 
      .see-lots-lu {
