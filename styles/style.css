@@ -17,27 +17,27 @@
 
 .main {
   font-family: Raleway;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  align-self: center;
+  color: black;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   text-align: left;
-  color: black;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  align-self: center;
   margin-left: -10px;
 }
 
 .see-lots-main {
   font-family: Raleway;
   color: black;
-  align-self: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   letter-spacing: 0.01em;
   text-align: left;
   list-style-type: circle;
+  align-self: center;
 }
 
 .main-li {
@@ -68,14 +68,14 @@
 
 .contacts-main-li {
   font-family: Raleway;
-  grid-column-start: 6;
-  grid-column-end: 6;
   color: black;
   white-space: pre-wrap;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   letter-spacing: 0.01em;
+  grid-column-start: 6;
+  grid-column-end: 6;
   align-self: flex-end;
   justify-self: start;
 }
