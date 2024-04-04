@@ -2,7 +2,7 @@
 
 .container {
 display:grid;
-place-items: center; 
+ place-items: center; 
 width: 1052px;
 height: 105px;
 margin: auto;
