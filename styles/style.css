@@ -60,7 +60,7 @@
   letter-spacing: 0.01em;
   text-align: left;
   margin-top: 38px;
-  margin-left: 33px;
+  margin-left: 32px;
   text-decoration: underline;
   text-underline-offset: -3px;
 }
@@ -110,6 +110,7 @@
 }
 
 .first_word {
+  
   letter-spacing: 0.31em;
 }
 
@@ -126,7 +127,7 @@
 }
 
 .word3 {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.36em;
 }
 
 .word5 {
@@ -148,7 +149,7 @@
   font-weight: bold;
   z-index: 1;
   padding-top: 165px;
-  padding-left: 45px;
+  padding-left: 50px;
 }
 
 .header2 {
@@ -159,7 +160,7 @@
   font-weight: bold;
   z-index: 1;
   margin-top: 10px;
-  margin-left: 333px;
+  margin-left: 335px;
 }
 
 .header3 {
@@ -171,21 +172,26 @@
   margin-top: 3px;
   margin-bottom: 238px;
   margin-right: 50px;
-  margin-left: 630px;
+  margin-left: 633px;
 }
 
 .cover_footer {
+  display: flex;
   font-family: Raleway;
   white-space: pre-wrap;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: white;
+  justify-content: space-between;
+  align-items: center;
+  word-spacing: 17.9px;
   z-index: 1;
   margin-top: -100px;
-  margin-left: 70px;
+  margin-left: 78px;
   font-size: 22px;
   line-height: 28px;
   font-weight: 10px;
+  letter-spacing: 0.005em;
 }
 
 .button {
@@ -356,7 +362,7 @@
 
 .background_circle {
   margin-top: 132px;
-  margin-left: 70px;
+  margin-left: 71px;
   display: flex;
   flex-direction: column;
   width: 240px;
