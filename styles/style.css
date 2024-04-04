@@ -1,6 +1,5 @@
 /* место для вашего кода */
 
-
 .container {
   display: flex;
   place-items: center;
@@ -11,7 +10,7 @@
   margin-top: 75px;
   padding-left: 5px;
   margin-bottom: 140px;
-  justify-content:start;
+  justify-content: start;
 }
 
 .main {
@@ -26,14 +25,13 @@
   align-self: center;
   margin-left: -870px;
   margin-top: 38px;
-
 }
 
-.ul_header{
+.ul_header {
   display: flex;
 }
 
-.menu-ite  {
+.menu-ite {
   font-family: Raleway;
   color: black;
   font-size: 18px;
@@ -48,9 +46,9 @@
   color: black;
 }
 
-.see-lots-main{
+.see-lots-main {
   text-decoration: underline;
-  text-underline-offset: -5px
+  text-underline-offset: -5px;
 }
 
 .about-auction-main {
@@ -59,7 +57,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
   text-align: left;
   margin-top: 38px;
   margin-left: 33px;
@@ -120,7 +118,7 @@ letter-spacing: 0.01em;
   letter-spacing: 0.31em;
 }
 
-.word0{
+.word0 {
   letter-spacing: 0.27em;
 }
 
@@ -194,7 +192,6 @@ letter-spacing: 0.01em;
   line-height: 28px;
   font-weight: 10px;
 }
-
 
 .button .link {
   display: flex;
@@ -376,7 +373,7 @@ letter-spacing: 0.01em;
   width: 148px;
   height: 114px;
   margin-top: 65px;
-  margin-left: 45px ;
+  margin-left: 45px;
 }
 
 .main_header {
@@ -428,7 +425,7 @@ letter-spacing: 0.01em;
   font-style: normal;
   color: black;
   white-space: pre-wrap;
-  
+
   font-size: 18px;
   font-weight: 400;
   text-align: left;
@@ -437,13 +434,13 @@ letter-spacing: 0.01em;
 }
 
 .address_link {
-text-decoration: none;
+  text-decoration: none;
 }
 
- .contact-address{
+.contact-address {
   margin-left: 42px;
   margin-top: -14px;
- }
+}
 
 .ul_footer {
   list-style-type: none;
