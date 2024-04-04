@@ -1,18 +1,17 @@
 /* место для вашего кода */
 
+
 .container {
-  display: grid;
+  display: flex;
   place-items: center;
   width: 1052px;
   height: 105px;
   margin: auto;
   list-style-type: none;
-  grid-template-columns: 0.8fr 1.7fr 1fr 1fr 2fr 2fr;
-  grid-template-rows: 2;
   margin-top: 75px;
-  margin-left: -4px;
-  margin-right: 24px;
+  padding-left: 5px;
   margin-bottom: 140px;
+  justify-content:start;
 }
 
 .main {
@@ -25,64 +24,79 @@
   grid-column-start: 1;
   grid-column-end: 1;
   align-self: center;
-  margin-left: -10px;
+  margin-left: -870px;
+  margin-top: 38px;
+
 }
 
-.see-lots-main {
+.ul_header{
+  display: flex;
+}
+
+.menu-ite  {
   font-family: Raleway;
   color: black;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   letter-spacing: 0.01em;
-  text-align: left;
-  list-style-type: circle;
-  align-self: center;
+  margin-top: 38px;
+  margin-left: 33px;
 }
 
 .main-li {
   color: black;
 }
 
+.see-lots-main{
+  text-decoration: underline;
+  text-underline-offset: -5px
+}
+
 .about-auction-main {
   font-family: Raleway;
   color: black;
-  align-self: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  letter-spacing: 0.01em;
+letter-spacing: 0.01em;
   text-align: left;
-  list-style-type: circle;
+  margin-top: 38px;
+  margin-left: 33px;
+  text-decoration: underline;
+  text-underline-offset: -3px;
 }
 
 .logo-black {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  display: flex;
   width: 148px;
   height: 105px;
-  align-self: center;
-  justify-self: center;
-  margin-left: 15px;
+  margin-left: -221px;
+  margin-top: 11px;
 }
 
 .contacts-main-li {
   font-family: Raleway;
+  font-style: normal;
   color: black;
   white-space: pre-wrap;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.3px;
+  line-height: 0.7;
   letter-spacing: 0.01em;
   grid-column-start: 6;
   grid-column-end: 6;
-  align-self: flex-end;
-  justify-self: start;
+  margin-top: 54px;
+  margin-left: -84px;
 }
 
 .contacts_main {
   color: black;
   right: 20px;
+}
+.contact-address {
+  margin-top: -29px;
+  margin-left: 44px;
 }
 
 .block_text {
@@ -94,6 +108,8 @@
   background-position: center;
   height: 757px;
   width: 1100px;
+  margin-left: -885px;
+  margin-top: -27px;
 }
 
 .header1 {
@@ -104,7 +120,7 @@
   font-weight: bold;
   z-index: 1;
   padding-top: 165px;
-  padding-left: 75px;
+  padding-left: 45px;
 }
 
 .header2 {
@@ -114,8 +130,8 @@
   letter-spacing: 20px;
   font-weight: bold;
   z-index: 1;
-  margin-top: -90px;
-  margin-left: 353px;
+  margin-top: 10px;
+  margin-left: 333px;
 }
 
 .header3 {
@@ -125,10 +141,10 @@
   letter-spacing: 20px;
   font-weight: bold;
   z-index: 1;
-  margin-top: -70px;
-  margin-bottom: 237px;
+  margin-top: px;
+  margin-bottom: 238px;
   margin-right: 50px;
-  margin-left: 633px;
+  margin-left: 630px;
 }
 
 .cover_footer {
@@ -138,8 +154,8 @@
   letter-spacing: 0;
   color: white;
   z-index: 1;
-  margin-top: -120px;
-  margin-left: 78px;
+  margin-top: -100px;
+  margin-left: 75px;
   font-size: 22px;
   line-height: 28px;
   font-weight: 10px;
@@ -158,8 +174,8 @@
   width: 256px;
   height: 51px;
   text-transform: uppercase;
-  margin-left: 750px;
-  margin-top: -70px;
+  margin-left: 790px;
+  margin-top: -40px;
   text-decoration: none;
 }
 
@@ -172,7 +188,7 @@
   line-height: 46.96px;
   text-align: left;
   margin-top: 179px;
-  margin-left: 50px;
+  margin-left: -826px;
 }
 
 .card_section_ul {
@@ -181,8 +197,6 @@
   grid-auto-flow: column;
   width: 1052px;
   height: 692px;
-  top: 1250px;
-  left: 24px;
   gap: 25px;
   padding-top: 24px;
   grid-template-columns: repeat(3/1fr);
@@ -194,8 +208,10 @@
   display: grid;
   grid-template-columns: repeat(3, 334px);
   grid-template-rows: repeat(1, 563px);
-  gap: 30px;
-  margin-left: -20px;
+  gap: 26px;
+  margin-top: 2px;
+  margin-left: -865px;
+  align-self: start;
 }
 
 .li_card1 {
@@ -241,7 +257,7 @@
   text-decoration: underline;
   width: 254px;
   height: 82px;
-  padding-left: 50px;
+  margin-left: 38px;
 }
 
 .li_card1_header2 {
@@ -258,6 +274,7 @@
   width: 254px;
   height: 82px;
   position: relative;
+  margin-left: 38px;
 }
 
 .paragraph1 {
@@ -267,9 +284,9 @@
   line-height: 24px;
   text-align: left;
   color: white;
-  padding-top: 210px;
+  padding-top: 217px;
   white-space: pre-wrap;
-  padding-left: 5px;
+  padding-left: 1px;
 }
 
 .paragraph2 {
@@ -281,7 +298,7 @@
   color: white;
   margin-top: 0px;
   white-space: pre-wrap;
-  padding-left: 5px;
+  padding-left: -1px;
   padding-top: 0px;
 }
 
@@ -292,16 +309,16 @@
   line-height: 24px;
   text-align: left;
   color: white;
-  margin-top: 100px;
-  margin-left: 10px;
+  margin-top: 96px;
+  margin-left: -1px;
   white-space: pre-wrap;
 }
 
 .see {
   font-family: Raleway;
-  margin-left: 100px;
+  margin-left: -825px;
   position: absolute;
-  margin-top: -120px;
+  margin-top: -72px;
   color: black;
   font-size: 20px;
   font-weight: 400;
@@ -310,8 +327,8 @@
 }
 
 .background_circle {
-  margin-top: 181px;
-  margin-left: 70px;
+  margin-top: 130px;
+  margin-left: -820px;
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -323,15 +340,14 @@
 .logo_white {
   width: 148px;
   height: 114px;
-  padding-top: 60px;
-  padding-left: 50px;
-  justify-content: center;
+  margin-top: 65px;
+  margin-left: 45px ;
 }
 
 .main_header {
   font-family: Raleway;
-  padding-left: 410px;
-  margin-top: -140px;
+  margin-left: -506px;
+  margin-top: -135px;
   white-space: pre-wrap;
   text-transform: uppercase;
   font-size: 40px;
@@ -342,8 +358,8 @@
 
 .main_paragraph1 {
   font-family: Raleway;
-  margin-top: 70px;
-  padding-left: 370px;
+  margin-top: 75px;
+  margin-left: -550px;
   white-space: pre-wrap;
   font-size: 20px;
   font-weight: 400;
@@ -354,8 +370,8 @@
 
 .main_paragraph2 {
   font-family: Raleway;
-  margin-top: -30px;
-  padding-left: 370px;
+  margin-top: -25px;
+  margin-left: -550px;
   white-space: pre-wrap;
   font-size: 20px;
   font-weight: 400;
@@ -382,19 +398,14 @@
   letter-spacing: 0.01em;
   text-align: left;
   margin-top: -20px;
-  margin-right: 10px;
-}
-
-.footer_flex {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin-right: 160px;
+  margin-left: -850px;
 }
 
 .ul_footer {
   list-style-type: none;
-  margin-left: 160px;
+  margin-top: 14px;
+  margin-left: 100px;
+  text-align: center;
 }
 
 .social_site_ul {
@@ -403,7 +414,8 @@
   gap: 48px;
   flex-direction: row;
   justify-content: end;
-  padding-right: 200px;
+  margin-right: -430px;
+  margin-top: 27px;
 }
 
 .main-footer {
