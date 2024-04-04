@@ -29,9 +29,9 @@
 }
 
 .see-lots-main {
+  font-family: Raleway;
   color: black;
   align-self: center;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
@@ -45,9 +45,9 @@
 }
 
 .about-auction-main {
+  font-family: Raleway;
   color: black;
   align-self: center;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
@@ -67,11 +67,11 @@
 }
 
 .contacts-main-li {
+  font-family: Raleway;
   grid-column-start: 6;
   grid-column-end: 6;
   color: black;
   white-space: pre-wrap;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -132,6 +132,7 @@
 }
 
 .cover_footer {
+  font-family: Raleway;
   white-space: pre-wrap;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -139,7 +140,6 @@
   z-index: 1;
   margin-top: -120px;
   margin-left: 78px;
-  font-family: Raleway;
   font-size: 22px;
   line-height: 28px;
   font-weight: 10px;
@@ -164,9 +164,9 @@
 }
 
 .center_lots {
+  font-family: Raleway;
   text-transform: uppercase;
   color: black;
-  font-family: Raleway;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -230,9 +230,9 @@
 }
 
 .li_card1_header {
+  font-family: Raleway;
   margin-top: 50px;
   color: white;
-  font-family: Raleway;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -245,11 +245,11 @@
 }
 
 .li_card1_header2 {
+  font-family: Raleway;
   margin-top: 50px;
   white-space: pre;
   text-align: left;
   color: white;
-  font-family: Raleway;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -281,7 +281,6 @@
   color: white;
   margin-top: 0px;
   white-space: pre-wrap;
-  font-weight: lighter;
   padding-left: 5px;
   padding-top: 0px;
 }
@@ -299,11 +298,11 @@
 }
 
 .see {
+  font-family: Raleway;
   margin-left: 100px;
   position: absolute;
   margin-top: -120px;
   color: black;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
@@ -330,11 +329,11 @@
 }
 
 .main_header {
+  font-family: Raleway;
   padding-left: 410px;
   margin-top: -140px;
   white-space: pre-wrap;
   text-transform: uppercase;
-  font-family: Raleway;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -342,10 +341,10 @@
 }
 
 .main_paragraph1 {
+  font-family: Raleway;
   margin-top: 70px;
   padding-left: 370px;
   white-space: pre-wrap;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -354,10 +353,10 @@
 }
 
 .main_paragraph2 {
+  font-family: Raleway;
   margin-top: -30px;
   padding-left: 370px;
   white-space: pre-wrap;
-  font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -374,9 +373,9 @@
 }
 
 .contacts_footer {
+  font-family: Raleway;
   white-space: pre-wrap;
   color: black;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -408,8 +407,8 @@
 }
 
 .main-footer {
-  text-align: center;
   font-family: Raleway;
+  text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
