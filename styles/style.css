@@ -1,11 +1,9 @@
-/* место для вашего кода */
-
 .container {
   display: flex;
   place-items: center;
   width: 1052px;
   height: 105px;
-  margin: auto;
+  margin: 915px;
   list-style-type: none;
   margin-top: 75px;
   padding-left: 5px;
@@ -25,10 +23,12 @@
   align-self: center;
   margin-left: -870px;
   margin-top: 38px;
+  list-style-type: none;
 }
 
 .ul_header {
   display: flex;
+  list-style-type: circle;
 }
 
 .menu-ite {
@@ -84,19 +84,17 @@
   letter-spacing: 0.01em;
   grid-column-start: 6;
   grid-column-end: 6;
-  margin-top: 53px;
-  margin-left: -86px;
+  margin-top: 55px;
+  margin-left: -85px;
+}
+
+.contact-address-main {
+  margin-top: px;
 }
 
 .contacts_main {
   color: black;
 }
-
-.link_addres {
-  margin-top: 39px;
-  margin-left: 1px;
-}
-
 .block_text {
   font-family: Raleway;
   background-image: url("/images/cover.jpg");
@@ -107,7 +105,7 @@
   background-position: center;
   height: 757px;
   width: 1100px;
-  margin-left: -885px;
+  /* margin-left: -885px;*/
   margin-top: -27px;
 }
 
@@ -190,20 +188,20 @@
   font-weight: 10px;
 }
 
-.button .link {
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid white;
   color: white;
-  z-index: 2;
+  z-index: 200;
   text-align: center;
   font-size: 22px;
   line-height: 25.83px;
   width: 256px;
   height: 51px;
   text-transform: uppercase;
-  margin-left: 790px;
+  margin-left: 795px;
   margin-top: -40px;
   text-decoration: none;
 }
@@ -217,13 +215,14 @@
   line-height: 46.96px;
   text-align: left;
   margin-top: 179px;
-  margin-left: -826px;
+  margin-left: 63px;
 }
 
 .card_section_ul {
   list-style-type: none;
   display: grid;
   grid-auto-flow: column;
+  padding-left: 890px;
   width: 1052px;
   height: 692px;
   gap: 25px;
@@ -347,7 +346,8 @@
   font-family: Raleway;
   margin-left: -825px;
   position: absolute;
-  margin-top: -72px;
+  margin-top: -71px;
+  margin-left: 64px;
   color: black;
   font-size: 20px;
   font-weight: 400;
@@ -356,8 +356,8 @@
 }
 
 .background_circle {
-  margin-top: 130px;
-  margin-left: -820px;
+  margin-top: 132px;
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -375,7 +375,7 @@
 
 .main_header {
   font-family: Raleway;
-  margin-left: -506px;
+  margin-left: 383px;
   margin-top: -135px;
   white-space: pre-wrap;
   text-transform: uppercase;
@@ -387,25 +387,23 @@
 
 .main_paragraph1 {
   font-family: Raleway;
-  margin-top: 75px;
-  margin-left: -550px;
+  margin-top: 73px;
+  margin-left: 345px;
   white-space: pre-wrap;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.01em;
   text-align: left;
 }
 
 .main_paragraph2 {
   font-family: Raleway;
   margin-top: -25px;
-  margin-left: -550px;
+  margin-left: 345px;
   white-space: pre-wrap;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.01em;
 }
 
 .footer_section {
@@ -422,12 +420,11 @@
   font-style: normal;
   color: black;
   white-space: pre-wrap;
-
   font-size: 18px;
   font-weight: 400;
   text-align: left;
   margin-top: 8px;
-  margin-left: -858px;
+  margin-left: 30px;
 }
 
 .address_link {
@@ -435,13 +432,15 @@
 }
 
 .contact-address {
-  margin-left: 42px;
-  margin-top: -14px;
+  margin-left: 38px;
+  margin-top: -25px;
+  padding-top: 11px;
+  padding-left: 6px;
 }
 
 .ul_footer {
   list-style-type: none;
-  margin-top: 28px;
+  margin-top: 26px;
   margin-left: 217px;
   text-align: center;
 }
@@ -452,8 +451,8 @@
   gap: 48px;
   flex-direction: row;
   justify-content: end;
-  margin-right: -425px;
-  margin-top: 27px;
+  padding-left: 187px;
+  margin-top: 26px;
 }
 
 .main-footer {
@@ -462,6 +461,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
+  margin-left: -2px;
+  margin-top: 1px;
 }
 
 .see-lots-lu {
