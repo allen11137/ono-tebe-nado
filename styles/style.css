@@ -86,20 +86,24 @@ letter-spacing: 0.01em;
   letter-spacing: 0.01em;
   grid-column-start: 6;
   grid-column-end: 6;
-  margin-top: 54px;
-  margin-left: -84px;
+  margin-top: 53px;
+  margin-left: -86px;
 }
 
 .contacts_main {
   color: black;
-  right: 20px;
 }
 .contact-address {
-  margin-top: -29px;
   margin-left: 44px;
 }
 
+.link_addres {
+  margin-top: 39px;
+  margin-left: 1px;
+}
+
 .block_text {
+  font-family: Raleway;
   background-image: url("/images/cover.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
@@ -112,6 +116,37 @@ letter-spacing: 0.01em;
   margin-top: -27px;
 }
 
+.first_word {
+  letter-spacing: 0.31em;
+}
+
+.word0{
+  letter-spacing: 0.27em;
+}
+
+.t {
+  letter-spacing: 0.3em;
+}
+
+.word2 {
+  letter-spacing: 0.3em;
+}
+
+.word3 {
+  letter-spacing: 0.3em;
+}
+
+.word5 {
+  letter-spacing: 0.6em;
+}
+
+.word6 {
+  letter-spacing: 0.3em;
+}
+
+.word7 {
+  letter-spacing: 0.3em;
+}
 .header1 {
   letter-spacing: 25px;
   text-transform: uppercase;
@@ -140,8 +175,7 @@ letter-spacing: 0.01em;
   font-size: 100px;
   letter-spacing: 20px;
   font-weight: bold;
-  z-index: 1;
-  margin-top: px;
+  margin-top: 3px;
   margin-bottom: 238px;
   margin-right: 50px;
   margin-left: 630px;
@@ -151,15 +185,16 @@ letter-spacing: 0.01em;
   font-family: Raleway;
   white-space: pre-wrap;
   text-transform: uppercase;
-  letter-spacing: 0;
+  letter-spacing: 0.1em;
   color: white;
   z-index: 1;
   margin-top: -100px;
-  margin-left: 75px;
+  margin-left: 70px;
   font-size: 22px;
   line-height: 28px;
   font-weight: 10px;
 }
+
 
 .button .link {
   display: flex;
@@ -390,21 +425,30 @@ letter-spacing: 0.01em;
 
 .contacts_footer {
   font-family: Raleway;
-  white-space: pre-wrap;
+  font-style: normal;
   color: black;
+  white-space: pre-wrap;
+  
   font-size: 18px;
   font-weight: 400;
-  line-height: 24.3px;
-  letter-spacing: 0.01em;
   text-align: left;
-  margin-top: -20px;
-  margin-left: -850px;
+  margin-top: 8px;
+  margin-left: -858px;
 }
+
+.address_link {
+text-decoration: none;
+}
+
+ .contact-address{
+  margin-left: 42px;
+  margin-top: -14px;
+ }
 
 .ul_footer {
   list-style-type: none;
-  margin-top: 14px;
-  margin-left: 100px;
+  margin-top: 28px;
+  margin-left: 217px;
   text-align: center;
 }
 
@@ -414,7 +458,7 @@ letter-spacing: 0.01em;
   gap: 48px;
   flex-direction: row;
   justify-content: end;
-  margin-right: -430px;
+  margin-right: -425px;
   margin-top: 27px;
 }
 
