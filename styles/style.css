@@ -32,7 +32,6 @@
 
 .header__links-list-item_no-bullit {
   display: flex;
-  margin-right: 0, 5px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
@@ -300,7 +299,6 @@
   width: 148px;
   height: 114px;
   margin-top: 10px;
-  padding-left: px;
 }
 
 .about__column__second {
