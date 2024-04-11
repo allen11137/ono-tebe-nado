@@ -1,88 +1,63 @@
 .header {
-  /*display: flex;
-  align-items: center;
-  max-width: 1052px;*/
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  padding-top: 92px;
-  padding-bottom: 96px;
-  padding-left: 26px;
+  display: flex;
+  margin: 92px 24px 96px;
+  background-color: #fff;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.13px;
-  letter-spacing: 0.01em;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 1);
+  align-items: center;
 }
 
-.header__menue {
+.header__menu {
   display: flex;
+  max-width: 426px;
+  width: 42.6%;
+  margin-left: 26px;
   align-items: center;
-  padding-top: 50px;
+  flex-direction: row;
+  margin-top: 2px;
 }
 
 .header__links-list {
   display: flex;
-  column-gap: 32px;
-  margin-top: 44px;
-  margin-left: 25px;
+  gap: 31px;
+  letter-spacing: 0.01em;
+}
+
+.header__link {
+  text-underline-position: under;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__links-list-item {
-  list-style-type: circle;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
-  list-style: none;
+  list-style-type: none;
 }
 
 .header__logo {
   display: flex;
   height: 105px;
   width: 148px;
-  margin-top: 0.45px;
-  margin-right: 25px;
-}
-
-.header__link {
-  font-size: 18px;
-  text-underline-position: under;
-  line-height: 21px;
-  font-weight: 400;
-  text-align: left;
-  letter-spacing: 0.01em;
-  color: rgba(0, 0, 0, 1);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.header__link_active {
-  border: none;
-  text-decoration: none;
-  }
-  
-
-.address {
-  max-width: 234px;
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  text-underline-position: under;
-  font-style: normal;
-  text-align: left;
 }
 
 .header__address {
-  margin-top: 4px;
-  margin-left: 161px;
+  margin-left: 17.6%;
 }
 
-.address__link {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 1);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-  width: 58%;
+.address {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  flex-direction: column;
+  text-underline-position: under;
+  line-height: 24px;
 }
 
 .cover {
