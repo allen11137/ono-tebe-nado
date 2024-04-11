@@ -17,6 +17,9 @@
 .header__menue {
   display: flex;
   align-items: center;
+  width: 43%;
+  align-items: center;
+  flex-direction: row;
 }
 
 .header__links-list {
@@ -344,7 +347,7 @@
   justify-content: space-between;
   padding-right: 50px;
   padding-left: 52px;
-  padding-top: 88px;
+  padding-top: 79px;
   padding-bottom: 88px;
   background-color: rgba(255, 255, 255, 1);
 }
