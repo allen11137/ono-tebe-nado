@@ -38,25 +38,24 @@
   display: flex;
   height: 105px;
   width: 148px;
-  margin-top: 0.2px;
+  margin-top: 0.15px;
   margin-left: 36px;
 }
 
 .header__link {
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
-  border-bottom: 1% solid #000000;
+  color: rgba(0, 0, 0, 1);
   text-decoration: none;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 1) inset;
   font-weight: 400;
   letter-spacing: 0.01em;
 }
 
 .header__link_active {
-  border: none;
   text-decoration: none;
-  }
-  
+  box-shadow: none;
+}
 
 .address {
   display: flex;
@@ -353,7 +352,6 @@
   padding-bottom: 88px;
   background-color: rgba(255, 255, 255, 1);
 }
-
 
 .footer__menu-list {
   display: flex;
